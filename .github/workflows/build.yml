@@ -20,5 +20,6 @@ jobs:
           port: ${{ secrets.AWS_SSH_PORT }}
           script_stop: true
           script: |
-            sudo find / -name pwd.sh
+            cd /home/runner/work/HTA/HTA
+            sh ./pwd.sh
 
