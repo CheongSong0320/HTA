@@ -19,5 +19,6 @@ jobs:
           port: ${{ secrets.AWS_SSH_PORT }}
           script_stop: true
           script: |
-            pwd
-            ls
+            cd publish/HTA/
+            ./pwd.sh
+
