@@ -19,6 +19,6 @@ jobs:
           port: ${{ secrets.AWS_SSH_PORT }}
           script_stop: true
           script: |
-            cd /github/workspace/HTA
+            cd /home/runner/work/HTA/HTA
             ./pwd.sh
 
